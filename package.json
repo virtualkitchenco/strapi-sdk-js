@@ -1,5 +1,5 @@
 {
-  "name": "strapi-sdk-js",
+  "name": "@virtualkitchenco/strapi-sdk-js",
   "version": "0.0.0",
   "description": "📦 Javascript SDK for your Strapi API",
   "keywords": [
@@ -21,7 +21,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git@github.com:Stun3R/strapi-sdk-js.git"
+    "url": "git+https://github.com/virtualkitchenco/strapi-sdk-js.git"
   },
   "license": "MIT",
   "author": {
@@ -49,6 +49,9 @@
   "files": [
     "./dist"
   ],
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/@virtualkitchenco"
+  },
   "scripts": {
     "start": "siroc build --watch",
     "build": "siroc build",
